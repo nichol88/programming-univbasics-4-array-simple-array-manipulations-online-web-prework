@@ -3,24 +3,27 @@ a = [1,2,3,4]
 def using_push(a,i = "string")
 a.push(i)
 end
-def using_unshift(a)
-a.unshift(1)
-end
-def using_pop
-end
-def pop_with_args
-end
-def using_shift
-end
-def  shift_with_args
 
+def using_unshift(a,i = "string")
+  a.unshift(i)
 end
-
-def using_concat
-
+def using_pop(a)
+  a.pop
+end
+def pop_with_args(a,i)
+  a.pop(i)
+end
+def using_shift(a)
+  a.shift
+end
+def  shift_with_args(a,i)
+  a.shift(i)
+end
+def using_concat(a,i)
+  a.concat(i)
 end
 def using_insert
-
+  
 end
 def using_uniq
 
