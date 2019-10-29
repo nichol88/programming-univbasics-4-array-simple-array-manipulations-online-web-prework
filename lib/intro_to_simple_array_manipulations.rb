@@ -10,7 +10,7 @@ end
 def using_pop(a)
   a.pop
 end
-def pop_with_args(a,i)
+def pop_with_args(a,i = 2)
   a.pop(i)
 end
 def using_shift(a)
@@ -23,7 +23,7 @@ def using_concat(a,i)
   a.concat(i)
 end
 def using_insert
-  
+
 end
 def using_uniq
 
