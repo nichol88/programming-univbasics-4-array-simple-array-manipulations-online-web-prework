@@ -32,7 +32,7 @@ def using_flatten(a)
   a.flatten()
 end
 def using_delete(a,i = "string")
-
+  a.delete(i)
 end
 
 def using_delete_at(a,i)
