@@ -16,25 +16,25 @@ end
 def using_shift(a)
   a.shift
 end
-def  shift_with_args(a,i)
+def  shift_with_args(a,i = 2)
   a.shift(i)
 end
 def using_concat(a,i)
   a.concat(i)
 end
-def using_insert
+def using_insert(a,i)
+  a.insert(i,4)
+end
+def using_uniq(a)
+  a.uniq()
+end
+def using_flatten(a)
+  a.flatten()
+end
+def using_delete(a,i = "string")
 
 end
-def using_uniq
 
-end
-def using_flatten
-
-end
-def using_delete
-
-end
-
-def using_delete_at
-
+def using_delete_at(a,i)
+  a.delete_at(i)
 end
