@@ -23,7 +23,7 @@ def using_concat(a,i)
   a.concat(i)
 end
 def using_insert(a,i)
-  a.insert(i,4)
+  a.insert(4,i)
 end
 def using_uniq(a)
   a.uniq()
