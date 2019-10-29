@@ -1,7 +1,7 @@
 a = [1,2,3,4]
 
-def using_push(a)
-a.push(5)
+def using_push(a,i = "string")
+a.push(i)
 end
 def using_unshift(a)
 a.unshift(1)
